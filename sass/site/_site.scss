@@ -44,3 +44,12 @@
     flex-direction: column-reverse;
     flex: 1 1 25%;
  }
+ .division-event{
+    display: flex;
+    align-items: center;
+ }
+ .super-evenement{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: repeat(31, 20px [col-start]);
+ }

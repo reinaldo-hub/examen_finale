@@ -53,4 +53,4 @@ get_header();
     
     </main><!-- #main -->
 </div><!-- #primary -->
-<h1 class="container">Nos evenement importants</h1>
+<a href="category/evenement"><h1 class="container">Nos evenement importants</h1></a>
