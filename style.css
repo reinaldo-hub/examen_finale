@@ -88,6 +88,21 @@
   }
 }
 
+.division-conference {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-conf {
+  width: 100%;
+  max-width: 160px;
+}
+
+.date-span {
+  color: red;
+}
+
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/

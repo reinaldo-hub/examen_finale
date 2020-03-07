@@ -18,11 +18,14 @@ get_header();
         while($query1->have_posts()):
             
             $query1->the_post();
-
-            echo "<div>";
-                the_post_thumbnail();
-                echo "<h4>" . get_the_title() . "</h4>";
+            echo "<div class='division-conference'>";
+                echo "<div class='div-conf'>";
+                the_post_thumbnail("thumbnail");
+                echo "</div>";
+                echo "<div>";
+                echo "<h4>" . get_the_title() . " " . "<span class='date-span'>" . get_the_date() .  "</span>" . "</h4>";
                 echo "<p>" . get_the_excerpt() . "</p>";
+                echo "</div>";
             echo "</div>";
 
         endwhile;
