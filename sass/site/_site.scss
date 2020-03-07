@@ -36,3 +36,11 @@
  .date-span{
     color: red;
  }
+ .nouvelle{
+    display: flex;
+ }
+ .division-nouvelles{
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1 1 25%;
+ }
