@@ -10,3 +10,37 @@
 ## Comments
 --------------------------------------------------------------*/
 //@import "primary/comments";
+
+.attachment-post-thumbnail {
+    width: 100%;
+ }
+ .site-branding{
+    display:none;
+ }
+ .menu{
+    display:none;
+ }
+ @media screen and (min-width: 1200px) {
+     .container{
+         width: 960px;
+         margin: 0 auto;
+    }
+  }
+  .division-conference{
+    display:flex;
+ }
+ .div-conf{
+    width: 100%;
+    max-width: 160px;
+ }
+ .date-span{
+    color: red;
+ }
+ .nouvelle{
+    display: flex;
+ }
+ .division-nouvelles{
+    display: flex;
+    flex-direction: column-reverse;
+    flex: 1 1 25%;
+ }

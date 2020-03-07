@@ -69,6 +69,59 @@
 /*--------------------------------------------------------------
 ## Comments
 --------------------------------------------------------------*/
+.attachment-post-thumbnail {
+  width: 100%;
+}
+
+.site-branding {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
+
+.division-conference {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-conf {
+  width: 100%;
+  max-width: 160px;
+}
+
+.date-span {
+  color: red;
+}
+
+.nouvelle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.division-nouvelles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 25%;
+          flex: 1 1 25%;
+}
+
 /*--------------------------------------------------------------
 # Infinite scroll
 --------------------------------------------------------------*/
