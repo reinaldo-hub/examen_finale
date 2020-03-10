@@ -53,3 +53,12 @@
     grid-template-columns: 33% 33% 33%;
     grid-template-rows: repeat(31, 20px [col-start]);
  }
+
+//  code pour la grille des cours
+
+.site-main{
+   display: grid;
+   grid-template-columns: 6 repeat() 1fr;
+   grid-template-rows: 10 repeat() 1fr;
+   border: 1px solid black;
+}

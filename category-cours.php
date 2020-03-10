@@ -31,7 +31,7 @@ get_header();
 		
 		
 		?>
-        
+
          <!-- ordre alphabetique -->
         <?php
             $orderAlpha = get_the_title();
@@ -43,6 +43,8 @@ get_header();
                 echo "<br>";
             }
         ?>
+
+        <!-- code pour la grille de cours -->
 
 		</main><!-- #main -->
 	</div><!-- #primary -->
